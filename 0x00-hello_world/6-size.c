@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- * main - main block of code
- * pint various sizes of datatypes
+ * main - main block
  * return: 0
  */
-int main(void)//this specifies there are no arguments taken by main
+int main(void)
 {
 	char c;
 	int i;
