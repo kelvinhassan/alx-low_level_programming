@@ -2,7 +2,7 @@
 #include <time.h>
 # include <stdlib.h>
 /**
- *main - using if condition to find positive or negative 
+ * main - using if conditions
  *Return: 0 on success
  */
 int main(void)
