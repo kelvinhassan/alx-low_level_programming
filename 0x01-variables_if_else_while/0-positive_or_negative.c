@@ -2,8 +2,7 @@
 #include <time.h>
 # include <stdlib.h>
 /**
- * Main - Entry point
- * Description: Get random numbers a determine if positive, negative or zero
+ * Main - Description: Get random numbers a determine if positive, negative or zero
  * Return: 0 on success
  */
 int main(void)
