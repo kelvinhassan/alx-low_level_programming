@@ -2,8 +2,8 @@
 #include <time.h>
 # include <stdlib.h>
 /**
- * Main - Get random numbers: determine if positive, negative or zero
- * Return: 0 on success
+ *main - using if condition to find positive or negative 
+ *Return: 0 on success
  */
 int main(void)
 {
