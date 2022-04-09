@@ -20,7 +20,7 @@ int main(void)
 	while (c <= 98)
 	{
 		ff = (c / 10 + '0');
-		ii = (c % 10 = '0');
+		ii = (c % 10 + '0');
 		c2 = 0;
 		while (c2 <= 99)
 		{
@@ -41,9 +41,9 @@ int main(void)
 					putchar(' ');
 				}
 			}
-			c2++
+			c2++;
 		}
-		c++
+		c++;
 	}
 	putchar('\n');
 	return (0);
