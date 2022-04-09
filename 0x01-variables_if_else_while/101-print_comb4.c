@@ -39,5 +39,5 @@ int main(void)
 		i++;
 	}
 	putchar('\n');
-	retunr (0);
+	return (0);
 }
