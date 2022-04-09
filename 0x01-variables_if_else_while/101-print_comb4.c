@@ -9,9 +9,9 @@
  */
 int main(void)
 {
-	int i = 0;
-	int j = 0;
-	int k = 0;
+	int i = '0';
+	int j = '0';
+	int k = '0';
 
 	while (i <= '7')
 	{
@@ -35,7 +35,7 @@ int main(void)
 			k = '0';
 			j++;
 		}
-		j='0';
+		j ='0';
 		i++;
 	}
 	putchar('\n');
