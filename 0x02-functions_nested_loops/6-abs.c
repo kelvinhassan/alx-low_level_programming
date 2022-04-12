@@ -1,4 +1,4 @@
-#include "maih.h"
+#include "main.h"
 /**
  * _abs - computer the absolute value of numbers from zero
  * @i: integer to be converted
