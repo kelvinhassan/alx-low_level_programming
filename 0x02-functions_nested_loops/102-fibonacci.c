@@ -15,11 +15,12 @@ int main(void)
 		i = j;
 		j = k;
 		printf("%lu", k);
+
 		if (count == 49)
 			putchar('\n');
 		else
 		{
-			printf(",");
+			printf(", ");
 		}
 	}
 	return (0);
