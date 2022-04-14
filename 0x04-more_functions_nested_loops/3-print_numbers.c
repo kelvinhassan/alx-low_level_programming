@@ -3,7 +3,8 @@
  * print_numbers - print numbers between 0 - 9
  * Return: Always 0
  */
-int main(void)
+
+void print_numbers(void)
 {
 	char n = 0;
 
