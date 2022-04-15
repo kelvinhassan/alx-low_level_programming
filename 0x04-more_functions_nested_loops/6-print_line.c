@@ -3,7 +3,7 @@
 /**
  * print_line - draw straight line in terminal
  * @n: the number of '_' characters to use
- * Return: always 0
+ * Return: void
  */
 
 void print_line(int n)
