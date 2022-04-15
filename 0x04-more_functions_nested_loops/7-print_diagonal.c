@@ -1,10 +1,9 @@
 #include "main.h"
 /**
  * print_diagonal - print diagonal line
- * @n - the diagonal \
+ * @n : number of \\ to be printed
  * Return: void
  */
-
 void print_diagonal(int n)
 {
 	int i;
