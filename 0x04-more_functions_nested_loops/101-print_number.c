@@ -2,12 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int _putchar(char c);
+
 /**
  * print_number - ptints an integer
- * @n: input integer.
+ * @n: number to be printed
  * Return: void
  */
-int _putchar(char c);
 
 void print_number(int n)
 {
