@@ -2,7 +2,9 @@
 /**
  * main - prints largest prime factor
  * Return: always 0
+ *
  */
+
 int main(void)
 {
 	long int x = 612852475143;
@@ -15,6 +17,6 @@ int main(void)
 			x = x / py;
 		}
 	}
-	printf("%1d\n", py);
+	printf("%ld\n", py);
 	return (0);
 }
