@@ -5,17 +5,16 @@
  */
 int main(void)
 {
-	long int n, g;
+	long int x = 612852475143;
+	long int py;
 
-	n = 612852475143;
-	for (g = 2; g <= n; g++)
+	for (py = 2; py < x; py++)
 	{
-		if (n % g == 0)
+		if (x % py == 0)
 		{
-			n /= g;
-			g--;
+			x = x / py;
 		}
 	}
-	printf("%1d\n", g);
+	printf("%1d\n", py);
 	return (0);
 }
