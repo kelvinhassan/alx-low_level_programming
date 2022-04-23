@@ -5,17 +5,17 @@
  * @s2: string 2
  * Return: 0 if matching, and ns1 - ns2 if not working
  */
-
 int _strcmp(char *s1, char *s2)
 {
 	int i;
+	int R;
 
-	for (i = 0; s1[i] != '\0' || s2[i] != '\0'; i++)
+	i = 0;
+
+	while (s1[i] == s2[i] && (s1[i] != '\0' || s2[i] != '\0'))
 	{
-		if (s1[i] != s2[i])
-		{
-			return (s1[i] - s2[i]);
-		}
+		i++;
 	}
-	return (0);
+	R = s1[i] - s2[i];
+	return (R);
 }
