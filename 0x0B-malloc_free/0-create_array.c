@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * create_array - entry point
+ * create_array - Entry point
  * @size: size of the array
  * @c: character
  * Return: a point to the array, or NUll if it fails
