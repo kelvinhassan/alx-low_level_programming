@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
- *  _strlen - length of a string
- *  @s: input char
- *  Return: length of a string
+ * _strlen - length of a string
+ * @s: input char
+ * Return: length of a string
  */
+
 int _strlen(char *s)
 {
 	int l = 0;
@@ -17,11 +19,11 @@ int _strlen(char *s)
 }
 
 /**
- * str_concat - Concat 2 strings.
- * @s1: string
- * @s2: string
- * Return: char
- */
+* str_concat - Concat 2 strings.
+* @s1: string
+* @s2: string
+* Return: char
+*/
 
 char *str_concat(char *s1, char *s2)
 {
@@ -35,7 +37,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (!s2)
 		s2 = "";
-	else 
+	else
 		l2 = _strlen(s2);
 
 	conc = malloc(l1 + l2 + 1);
@@ -51,3 +53,4 @@ char *str_concat(char *s1, char *s2)
 
 	return (conc);
 }
+
