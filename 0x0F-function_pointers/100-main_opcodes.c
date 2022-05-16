@@ -1,10 +1,11 @@
 #include "function_pointers.h"
 
 /**
- * main -  prints the opcodes of its own main function.
- * @argc: integer value.
- * argv: character value.
- * Return: 0(success)
+ *main -  prints the opcodes of its own main function.
+ *@argc: integer value.
+ *@argv: character value.
+ *
+ *Return: 0(success)
  */
 int main(int argc, char *argv[])
 {
@@ -25,3 +26,4 @@ int main(int argc, char *argv[])
 	printf("%02hhx\n", ((char *)main)[i]);
 	return (0);
 }
+
