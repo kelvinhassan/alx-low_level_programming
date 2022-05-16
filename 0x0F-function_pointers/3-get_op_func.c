@@ -8,6 +8,7 @@
  * @s: operator
  * Return: No
  */
+
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {
@@ -31,3 +32,4 @@ int (*get_op_func(char *s))(int, int)
 	printf("Error\n");
 	exit(99);
 }
+
