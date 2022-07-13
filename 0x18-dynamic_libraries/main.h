@@ -1,5 +1,5 @@
-#ifndef _HOLBERTON_
-#define _HOLBERTON_
+#ifndef _DYNAMIC_LIBRARIES_
+#define _DYNAMIC_LIBRARIES_
 
 int _putchar(char c);
 int _islower(int c);
